@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.129.207.185:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: zhanjob
+#  redis:
+#    cluster:
+#      nodes: 192.168.1.222:7000,192.168.1.222:7001,192.168.1.222:7002,192.168.1.223:7003,192.168.1.223:7004,192.168.1.223:7005,192.168.1.224:7006,192.168.1.224:7007,192.168.1.224:7008
+#      nodes: 192.168.100.51:7001,192.168.100.51:7002,192.168.100.52:7003,192.168.100.52:7004,192.168.100.53:7005,192.168.100.53:7006
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
